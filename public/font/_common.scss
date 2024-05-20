@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'RedotPay';
+  src: url('/font/Gilroy-medium.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'RedotPayThin';
+  src: url('/font/Gilroy-regular.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'RedotPayDigitalNumber';
+  src: url('/font/DigitalNumbers-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'EuclidCircular-Bold';
+  src: url('/font/EuclidCircularA-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'EuclidCircular-Medium';
+  src: url('/font/EuclidCircularB-Medium.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html, body {
+  font-family: 'RedotPay';
+}
+
+.md-container {
+  padding: 15px;
+  .md-article-title {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+  }
+  p {
+    padding: 10px 0 !important;
+  }
+}
+.primary-btn {
+  background: linear-gradient(270deg, rgba(228, 27, 56, 1), rgba(226, 30, 95, 1)) !important;
+}
+
+.gradient-btn {
+  color: #000;
+  background: linear-gradient(270deg, rgba(247, 215, 209, 1), rgba(223, 209, 237, 1), rgba(212, 224, 251, 1)) !important;
+}
+
+.round-btn {
+  height: 58px;
+  border-radius: 29px;
+}
+
+.font-thin {
+  font-family: 'RedotPayThin' !important;
+  // font-weight: 100;
+}
+
+.font-primary {
+  color: #FF2E2C;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.t-center {
+  text-align: center;
+}
+.t-left {
+  text-align: left;
+}
+.t-right {
+  text-align: right;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-v-center {
+  display: flex;
+  align-items: center;
+}
+.flex-h-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-1 {
+  flex: 1;
+}
+
+.rt-tag {
+  background-color: #E5E5E5;
+  border-radius: 20px;
+  padding: 11px 17px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.font-white {
+  color: #fff !important;
+}
+.font-black {
+  color: #000 !important;
+}
+
+.swiper-dot {
+  transition: all .3s;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: $primary;
+  opacity: .3;
+  margin: 0 3px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.swiper-active-dot {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  border-radius: 4px;
+  background: $primary;
+  opacity: 1;
+}
+
+.link {
+  color: $primary;
+  &:hover {
+    color: $secondary;
+  }
+}
+
+.t-primary {
+  color: $primary;
+}
+
+.yidun_tips__img {
+  max-width: inherit;
+}
+
+.yidun_inference__img {
+  max-width: inherit;
+}
+
+.fullscreen-container {
+  min-height: 100vh;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.loading-bg {
+  background: linear-gradient(to bottom, #F0C4DE, #F7F6FC, #CFB8EB);
+}
+
+.alert-box-shadow {
+  box-shadow: #FF2E2C 0 0 10px;
+}
+
+.app-back-button {
+  position: absolute;
+  z-index: 9;
+  padding: 20px;
+  color: #fff;
+}
+
+.prize-modal {
+  margin-top: 15vh;
+  outline: none;
+  .title-img {
+    padding: 0 10vw;
+  }
+  .close-button {
+    width: 44vw;
+    height: 12.56vw;
+    background: linear-gradient(90deg, #F44D4B 0%, #F259B5 100%);
+    border-radius: 6.27vw;
+    text-align: center;
+    line-height: 12.56vw;
+    font-size: 4.18vw;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 10vh;
+  }
+}
+
+.empty-prompt {
+  text-align: center;
+  padding: 4vw 0;
+  color: #7B7F8A;
+}
+
+.rules-wrapper {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 0 15px;
+}
